@@ -80,9 +80,10 @@ hr {
 }
 
 /* course styles */
-.courses {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.course {
+  display: flex;
+  flex-direction: row;
+  /* grid-template-columns: repeat(3, 1fr); */
 }
 .course {
   background-color: rgb(255, 255, 255);
@@ -115,4 +116,10 @@ hr {
   background-color: #ffe4e8;
   padding: 7px;
   border-radius: 50px;
+}
+
+/* Media Queries */
+
+/* Mobile Devices */
+@media only screen (max-width: 688px;) {
 }
